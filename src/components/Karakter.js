@@ -17,6 +17,7 @@ const Karakter = ({ char }) => {
         }}
       >
         {char.name}
+        <span>{char.birth_year}</span>
       </button>
       {showInfo && (
         <div className="charInfo">
@@ -25,6 +26,12 @@ const Karakter = ({ char }) => {
           <div className="karakterlist">Mass: {char.mass}</div>
           <div className="karakterlist">Birth Year: {char.birth_year}</div>
           <div className="karakterlist">Eye Color: {char.eye_color}</div>
+          <div className="appears">Appears in {char.films.length} films</div>
+          <div className="karakterlist">
+            {char.films.map((episodes) => (
+              <div>Episode:{episodes}</div>
+            ))}
+          </div>
         </div>
       )}
     </div>

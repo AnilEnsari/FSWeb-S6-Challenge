@@ -2,6 +2,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
-  background-image: url('./images/sw-bg.jpg');
+  background-image: url("https://img.freepik.com/free-photo/starry-night-sky_1048-11828.jpg?w=826&t=st=1691352871~exp=1691353471~hmac=07d0576e81506c69c07755d16be42bab08ff1642a45710d457b8516329484969");
   background-size: cover;
+  background-repeat: no-repeat;
 }

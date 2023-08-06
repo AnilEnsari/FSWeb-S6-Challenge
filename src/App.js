@@ -20,7 +20,7 @@ const App = () => {
 
   return (
     <div className="App">
-      <h1 className="Header">Karakterler </h1>
+      <h1 className="Header">REACT WARS </h1>
 
       {heroesData.map((char, index) => {
         return <Karakter char={char} key={index} />;

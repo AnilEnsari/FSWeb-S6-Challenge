@@ -6,3 +6,18 @@
   text-shadow: 1px 1px 5px #fff;
 }
 /* write your parent styles in here for your App.js */
+.charbuton {
+  width: 30rem;
+  display: flex;
+  justify-content: space-between;
+  color: rgba(243, 236, 236, 0.712);
+  background-color: rgba(0, 0, 0, 0.856);
+}
+
+.karakterler {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  color: rgba(243, 236, 236, 0.712);
+}
